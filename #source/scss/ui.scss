@@ -1,0 +1,215 @@
+// ibj
+.ibg {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   img {
+   width: 0;
+   height: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   visibility: hidden;
+}
+}
+// Ограничивающая оболочка
+.slick-list {
+   overflow: hidden;
+}
+// Лента слайдов
+.slick-track{
+   display: flex;
+}
+.client__body .slick-arrow{
+   position: absolute;
+   top: 50%;
+   z-index: 10;
+   font-size: 0;
+   // Стрелка влево
+   &.slick-prev{
+      left: -70px;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border-top: 3px solid #fffaf1;
+      border-left: 3px solid #fffaf1;
+      transform: rotate(-45deg);
+   }
+   // Стрелка вправо
+   &.slick-next{
+      right: -70px;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border-top: 3px solid #fffaf1;
+      border-right: 3px solid #fffaf1;
+      transform: rotate(45deg);
+   }
+   // Стрелка не активная
+   &.slick-disabled{}
+}
+
+// Точки (булиты)
+.special-slider .slick-dots{
+   position: absolute;
+   top: -35px;
+   right: 15px;
+   display: flex;
+   @media(max-width: 535px) {
+      bottom: -15px;
+      right: 50%;
+      top: auto;
+      transform: translateX(50%);
+   }
+   li {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin: 0 3px 0 0;
+      border: 2px solid #aaa7ae;
+      &:last-child {
+         margin: 0;
+      }
+   }
+   // Активная точка
+   li.slick-active{
+      border-color: #fea100;
+      position: relative;
+      &::after {
+         content: '';
+         width: 5px;
+         height: 5px;
+         background-color: #fea100;
+         position: absolute;
+         border-radius: 50%;
+         top: 50%;
+         left: 50%;
+         transform: translate3d(-50%, -50%, 0);
+      }
+   }
+   // Элемент точки
+   li button{
+      font-size: 0;
+   }
+}
+
+.client__body .slick-dots{
+   justify-content: center;
+   display: flex;
+   li {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin: 0 3px;
+      border: 2px solid #fff;
+      &:last-child {
+         margin: 0;
+      }
+   }
+   // Активная точка
+   li.slick-active{
+      border-color: #fff221;
+      position: relative;
+      &::after {
+         content: '';
+         width: 5px;
+         height: 5px;
+         background-color: #fff221;
+         position: absolute;
+         border-radius: 50%;
+         top: 50%;
+         left: 50%;
+         transform: translate3d(-50%, -50%, 0);
+      }
+   }
+   // Элемент точки
+   li button{
+      font-size: 0;
+   }
+}
+
+.post-block__slider .slick-dots{
+   position: absolute;
+   bottom: 20px;
+   right: 15px;
+   display: flex;
+   @media(max-width: 535px) {
+      bottom: -15px;
+      right: 50%;
+      top: auto;
+      transform: translateX(50%);
+   }
+   li {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin: 0 3px 0 0;
+      border: 2px solid #aaa7ae;
+      &:last-child {
+         margin: 0;
+      }
+   }
+   // Активная точка
+   li.slick-active{
+      border-color: #f9a004;
+      position: relative;
+      &::after {
+         content: '';
+         width: 5px;
+         height: 5px;
+         background-color: #f9a004;
+         position: absolute;
+         border-radius: 50%;
+         top: 50%;
+         left: 50%;
+         transform: translate3d(-50%, -50%, 0);
+      }
+   }
+   // Элемент точки
+   li button{
+      font-size: 0;
+   }
+}
+
+.resent-post__slider .slick-dots{
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   @media(max-width: 580px) {
+      bottom: -15px;
+   }
+   li {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin: 0 3px 0 0;
+      border: 2px solid #aaa7ae;
+      &:last-child {
+         margin: 0;
+      }
+   }
+   // Активная точка
+   li.slick-active{
+      border-color: #f9a004;
+      position: relative;
+      &::after {
+         content: '';
+         width: 5px;
+         height: 5px;
+         background-color: #f9a004;
+         position: absolute;
+         border-radius: 50%;
+         top: 50%;
+         left: 50%;
+         transform: translate3d(-50%, -50%, 0);
+      }
+   }
+   // Элемент точки
+   li button{
+      font-size: 0;
+   }
+}
