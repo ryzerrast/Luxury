@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17" width="21" height="17">
+	<defs>
+		<image width="27" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABWUlEQVRIS+2V4TEEQRBG32VABkSACMgAESgRIAJEgAyIABGQASIgBCKgXlWPmtu93Z3ZWufPzb+96u43/fU3fTOWeGZLZLGCTaL2v8p4ClxlbRwCD5O0BS2DbAMHUVzwO7DzV7C8rh3tA+vAHrA1AnoHfKS8vpklSZVyoyFvKXezFKakL8ANcAH4XXpU5TMu+Zsz5EYTauemCuZ4SdUphuVzE1xycvnnnDzUWWdiD7XzgkOwfG5zkvTAVOA1HDwXNgQzuGZuPpEn4DJMVQ27BY5KhpXFuAjsrhq2Blxnm6VVBDDGR/8WsV6wdUpkNOkZ2I1sCx1nlZyr0glU8jNgNCw58jEArrB8Qdupb8vujf2OFTeqM7fHeQAscB+3t3jTQIKVc6FiJTIm+6ebfsXqSgtW6EnWhgqkf45qg5igpdM7s9OmSfzNGGcrfOG2Kems0vXd4SvYJFL+AFqnQxxU81ZaAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::Header">
+		<g id="::cart">
+			<use id="icon_cart" href="#img1" transform="matrix(1,0,0,1,-3,-6)"/>
+		</g>
+	</g>
+</svg>

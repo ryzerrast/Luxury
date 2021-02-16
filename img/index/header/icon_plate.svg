@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 17" width="21" height="17">
+	<defs>
+		<image width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAATBJREFUSInt1DtKQ0EUxvFfglmD+CRYKrgFG7EUVHwVFoKFhZW4AndhFx+okBUIFi7ABzYi1qJYCOKLEJVYzASuEcm9Rq38w2nmnPm+M2fuXP75J3KKWkMcp9mYT2nwlnKtZerdp6atSb4TkxhCf2L9HGc4QBnXWUyhBxt48Xn2jVFFCd1pxWdxHzc/Yx1j0bQQoxfj2EQl1t5hqpn4SqKzLXSkaKgLO4l9y18VzsWCVyykEK6zigEsCl9WTZjCB/rwGJPzGcRhCbcYiSY1PKCYLCrHRCmjeJ3haDKI7ai1W0/2CUd7Qvs3DQjdHwl3UomaxTxmhBe9i5sWDNZwgZwwkTymYV840mgL4o1MRM09uNL8MX03LnPCSyz8YPdJqr+k+4fkZPz9ZiWPk1/UP3wHGHxl4+WP98EAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::Header">
+		<g id="::button">
+			<use id="icon_plate" href="#img1" transform="matrix(0.875,0,0,0.875,0,-4)"/>
+		</g>
+	</g>
+</svg>

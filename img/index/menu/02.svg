@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 25" width="23" height="25">
+	<defs>
+		<image width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABKklEQVRIS+2W7REBMRCGHx1QASVQATrQASXQAR1QATqgAnSgA3SgA+adyZkTcrnch/vhduYmxm3yZN+9TbZBRdaoiEso+Aj0gSGg3wPgAZxCA8gLFlQWuk7wBDvin4GXQBeYAmcjtyKW5EHmkqgDjINW+nRW3qXQV3OBFcEhJ3gBzLOCE3ftWDRSKxc4cbIDHKlVGfgK6LkDO2Ab36gvx3kitgVZmWpILPxUcnmkVoQb46OxDbSMAs4DpAhwXC374KnBr6wVKbXqWoeRxp/k2P729sAo+rPMcrqZOhZLdawL5mVlgis7uWrw28dWRo4nwBrIJLVq7hK7WXTLpLEmILDGnmmPgjoQOUc7TwO0fWZ2+dgOvrZUO1dzF2JqAnUHJ5oP7Juf+f3/gZ8gwWkfcPMItwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::food menu">
+		<g id="::tab">
+			<use id="icon_breakfast" href="#img1" transform="matrix(1,0,0,1,-5,-2)"/>
+		</g>
+	</g>
+</svg>

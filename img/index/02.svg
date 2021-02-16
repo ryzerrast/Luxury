@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 33" width="44" height="33">
+	<defs>
+		<image width="48" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAjpJREFUaIHtmM9LG0EUxz8JopGqtcGK9CiiUOih+A+0WLyaQxHiwZP44yAI9tgepf9C/QOkePZgSg89ib168SIoIpXS5KCipoomHubF7MYdzU5mswTmA8Ps7tv5vvd22Lc7Aw6Hw+FogEQEmimg17JmETi1rOmjHfgCHAIloBxBOwZWUA/oHhszkAQ2gXE5PwcuLOh6eQZ0yfEv8XVjS3wG9YT+AWO2RAMYEx9lYM6m8JaIZm2KasiKry2bovvAX6pTHCXdqAQuKxceeweeA52WA7BRTcrSB8aeQr3px0RTSbTVJGQClSR8WbQBP4F3cl4Ezgyd6OhCVRQwrybaGZgXYwHIoBKyTQL4AOQxrya+GfCyLYaPptGFYArzaqJNoCiGHvO46qaHmmoSAm0CWkNEmPrzjUtaCycmXAJx4xKIm1ZL4KX09/9TrZbAtPS/g4xxfgfSAfY0MCBtCPgEXMmYiacEm0HFXwr4D4x6bG/lWtDf7LenBJtFxV+H9AfAC9SiZY/qj2UBOAJywGQ9glFstdSSwP/AvsrxBvBdjlfCip7KQNt7OkH0i68TOU8Aa1STWsfgQf6QwQt2YnyUZfGV81xrRy1ytjFcrWVE9Br4DAwDfegX6x1iD9MGJXhdNelFzY4xqzx86/PA65r7+oGdgHvDNG01aZRJ1NQeoSpACbVtMiL2V8Au/ipRb6urmthmHpXEH+A91RK32MwgGmUW/6btUrzhmDED3KI+6S3Lm7gDcDgcDofDyx1IvtxdOAmPAgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::below banner (review &amp; phone)">
+		<g id="::read reviews">
+			<use id="icon_reviews" href="#img1" transform="matrix(1,0,0,1,-2,-7)"/>
+		</g>
+	</g>
+</svg>

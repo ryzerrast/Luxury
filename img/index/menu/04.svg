@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<defs>
+		<image width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACJklEQVRIS9WW7TEEQRRF70aACBABIkAEiAARIAJEgAgQATIgAkSACBABddS7qre3d6bb/NjSVVO7Znv6vHvfxxhpRms0I67+DXg1HHoa6lSr4ntJ65JeJV1Juo7vzXG0gJckvRQIBHDaGkAL+FDSmaQLSeeS+HtP0lwEcxIBVKlvAWPvoqTbgGP7fARwnOR+U9JHH70WTFE9ZocBxmI+SQMBrQQUeGcB1oKx9iDJJTYDYfHbUajn+27Al7uU14KxjlwuJIdtR2VzH3W2mGIDzr21aZbXgAHcBHA/LPV55BirUW84v/keqaDoJlYN2Ap4GOW5hcBtseHcc+uxn8IcW31gDnjPnikeFCoZLrQbNYBSqp0hQ9s1gXngUtJn5HiadewDQnWzXNUopQYmgu1T7BFJkXS1x1cmyIWVdsNYrrvAHpFviRLO97TCQg8KV33KRzWKyTWfqP5dXWDnKLU3HST0LopYVD55RSkX6WGgAOQ+a8y1LrBHZJofXOBg8raTtRaHU4wMmryFHpLAfqKYBrayZ0l+B9smDudKWwT7t0K595EiHLHyqqp27zIw+F5aGzGhsJlAWFQ/+7n+NKvzEUnk9CgWAgTm1gFIoaGMq2qVrPaIvAtAaYhwOHlDGbDe12AeTQnMQeQLlagikKq8VUmNTTm4pI68EQyBDP4nz8Hl4LRPsdpWtoip2luyGjit0py3KuIUq1ueHbS37yUx6PCuh2cG/gaFnocfCM95/AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::food menu">
+		<g id="::tab">
+			<use id="icon_pizza" href="#img1" transform="matrix(1,0,0,1,-3,-3)"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 21" width="26" height="21">
+	<defs>
+		<image width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABY0lEQVRIS+2W4U0DMQyFv27ABrABsAHdoEwAbAATABOUTgCdoGwATNBuAGwAG6An2VXuSHNOr6I/uEhV7tQ4z36273nEntZoT7gMwH/GfC3VB8AxcALo2fcZ8FzjdS3wGfCSAbgH7grAcnCV/l8LfAS8A58GpKinwJNF3GZC774aWBFggR0m1CqyL+DDqO5i+M0OiK28F4BAbm3Xs36l9W0UyhGn8tUMfM/atyMWNcuuECziRs46bG4iOb62vAXww0fGQIOBXI69cudWNOHbMwcvgQugCCyaVaHen10tEnFIhaiaUVpUB2vK04jbPbpLYHdyHXmJ6l0CV+V4AI4UU/uMF9dAdXb08bZS751uw29iozuk37onJItSHinSVY+vl75ajyahv8RmkyxOgIV5Lk+rpgtA9q7F5zn7kh7L+MEi34ZxDQsSnKzTkUHAp4oa8FSfQ3pcc3mvs5GIewFsMv5/wD/JulEf0Qk7LgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id=":::food menu">
+		<g id="::tab">
+			<use id="icon_lunch" href="#img1" transform="matrix(1,0,0,1,-2,-5)"/>
+		</g>
+	</g>
+</svg>
