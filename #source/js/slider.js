@@ -32,16 +32,18 @@ if( $('.client__body').length > 0 ) {
     });
 }
 
-if( $('.post-block__slider').length > 0 ) {
-   $('.post-block__slider').slick({
-      autoplay: false,
-      dots: true,
-      arrows: false,
-      accessibility: false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    });
-}
+$(function() {
+   if( $('.post-block__slider').length > 0 ) {
+      $('.post-block__slider').slick({
+         autoplay: false,
+         dots: true,
+         arrows: false,
+         accessibility: false,
+         slidesToShow: 1,
+         slidesToScroll: 1,
+       });
+   }
+})
 
 if( $('.resent-post__slider').length > 0 ) {
    $('.resent-post__slider').slick({
