@@ -314,6 +314,18 @@
          padding: 10px 30px;
       }
    }
+   &__link {
+      font-size: 21px;
+      color: #14141d;
+      transition: all .2s linear 0s;
+      margin: 0 5px 0 0;
+      &:hover {
+         color: #fea100;
+      }
+      @media(max-width: 650px) {
+         font-size: 16px;
+      }
+   }
    // .post-block__elem
    &__elem {
       display: flex;

@@ -97,9 +97,11 @@
    &__icon {
       font-size: 24px;
       margin: 0 0 20px 0;
-      color: #14141d;
-      transition: all .2s linear 0s;
-      &:hover {
+      & a {
+         color: #14141d;
+         transition: all .2s linear 0s;
+      }
+      & a:hover {
          color: #fea100;
       }
    }
@@ -150,9 +152,6 @@
       }
    }
    // .contact-details__social
-   &__social {
-      display: flex;
-   }
    @media(max-width: 900px) {
       &__column {
          margin: 0 50px 0 0;
@@ -166,6 +165,21 @@
          &:last-child {
             margin: 0;
          }
+      }
+   }
+}
+
+.contact-details-social {
+   display: flex;
+   font-size: 25px;
+   &__link {
+      color: #000;
+      transition: all .2s linear 0s;
+      &:first-child {
+         margin: 0 10px 0 0;
+      }
+      &:hover {
+         color: #fea100;
       }
    }
 }
@@ -194,6 +208,8 @@
       & span {
          position: absolute;
          top: 5px;
+         left: 5px;
+         transition: all .2s linear 0s;
       }
    }
    // .contact-form__input
@@ -203,7 +219,7 @@
       border-bottom: 1px solid #c7d1d6;
       font-size: 16px;
       line-height: 26px;
-      transition: all .3s linear 0s;
+      transition: all .2s linear 0s;
       background-color: transparent;
       &::placeholder {
          font-size: 14px;
@@ -215,6 +231,9 @@
       }
       &:focus, &:hover {
          border-color: #fea100;
+         & + span {
+            color: #fea100;
+         }
       }
       &:focus::placeholder, &:hover::placeholder {
          color: #fea100;
@@ -223,6 +242,16 @@
       &_a {
          resize: none;
          height: 140px;
+         line-height: 18px;
+      }
+      &._error {
+         border-color: red;
+         & + span {
+            color: red;
+         }
+         &::placeholder {
+            color: red;
+         }
       }
    }
    &__btn {

@@ -16,6 +16,7 @@
 @import 'recipies-page';
 @import 'posts';
 @import 'contact';
+@import 'about';
 // </ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ> ================================================================================================================
 
 // <ШРИФТЫ> ========================================================================================================================================================
@@ -64,8 +65,6 @@
       position: relative;
       z-index: 1;
    }
-   // .main-screen__content
-   &__content {}
    // .main-screen__title
    &__title {
       color: #ffffff;
@@ -346,7 +345,7 @@
          object-fit: cover;
          transition: all .1s linear 0s;
          &:hover {
-            box-shadow: 0px 0px 12px 4px rgba(236, 196, 132, 0.55);
+            box-shadow: 0px 0px 5px 2px rgba(236, 196, 132, 0.55);
          }
       }
    }

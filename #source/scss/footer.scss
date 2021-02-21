@@ -50,8 +50,6 @@
       line-height: 26px;
       margin: 0 0 16px 0;
    }
-   // .footer__social
-   &__social {}
    // .footer__item
    &__item {
       display: flex;
@@ -219,7 +217,7 @@
       }
       &._error {
          border-color: red;
-         & + span {
+         &::placeholder, & + span {
             color: red;
          }
       }

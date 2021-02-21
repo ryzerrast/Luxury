@@ -104,9 +104,6 @@
          height: 125px;
          resize: none;
       }
-      &:hover {
-         color: #fea100;
-      }
    }
    // .reservation__input
    &__input {
@@ -124,6 +121,9 @@
       }
       &:focus {
          border-color: #fea100;
+         & + span {
+            color: #fea100;
+         }
          &::placeholder {
             color: #fea100;
          }

@@ -41,7 +41,6 @@
    // .error404__text
    &__text {
       font-size: 72px;
-      line-height: 36px;
       color: #2c465a;
       font-weight: 700;
       font-family: "Playfair Display";
@@ -85,5 +84,49 @@
       border-radius: 5px;
       background: transparent;
       text-transform: uppercase; 
+   }
+   @media(max-width: 925px) {
+      &__cod {
+         font-size: 300px;
+      }
+      &__text {
+         font-size: 55px;
+      }
+   }
+   @media(max-width: 600px) {
+      padding: 0 0 60px 0;
+      &__cod {
+         font-size: 220px;
+         margin: 0 0 20px 0;
+      }
+      &__text {
+         margin: 0 0 20px 0;
+      }
+      &__title {
+         margin: 0 0 10px 0;
+      }
+      &__text {
+         font-size: 45px;
+      }
+      &__subtitle {
+         font-size: 21px;
+      }
+   }
+   @media(max-width: 445px) {
+      padding: 0 0 40px 0;
+      &__cod {
+         font-size: 150px;
+         margin: 0 0 15px 0;
+      }
+      &__text {
+         margin: 0 0 15px 0;
+      }
+      &__text {
+         font-size: 32px;
+         line-height: 25px;
+      }
+      &__subtitle {
+         font-size: 18px;
+      }
    }
 }
